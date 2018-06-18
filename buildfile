@@ -14,9 +14,9 @@ define 'gwt-ethereum-qr-code' do
   pom.add_mit_license
   pom.add_github_project('realityforge/gwt-ethereum-qr-code')
   pom.add_developer('realityforge', 'Peter Donald')
-  pom.provided_dependencies.concat [:javax_jsr305]
   pom.include_transitive_dependencies << artifact(:gwt_qr_code)
-  pom.dependency_filter = Proc.new {|dep| dep[:group].to_s == 'org.realityforge.braincheck' || dep[:group].to_s == 'com.google.code.findbugs' || dep[:group].to_s == 'org.realityforge.gwt.qr_code'}
+  pom.include_transitive_dependencies << artifact(:braincheck)
+  pom.dependency_filter = Proc.new {|dep| dep[:group].to_s == 'org.realityforge.braincheck' || dep[:group].to_s == 'org.realityforge.gwt.qr_code'}
 
   compile.with :javax_jsr305,
                :jsinterop_base,
