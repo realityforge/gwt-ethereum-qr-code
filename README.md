@@ -2,7 +2,7 @@
 
 # GWT Ethereum QR Code
 
-[![Build Status](https://secure.travis-ci.org/realityforge/gwt-ethereum-qr-code.png?branch=master)](http://travis-ci.org/realityforge/gwt-ethereum-qr-code)
+[![Build Status](https://secure.travis-ci.org/realityforge/gwt-ethereum-qr-code.svg?branch=master)](http://travis-ci.org/realityforge/gwt-ethereum-qr-code)
 [<img src="https://img.shields.io/maven-central/v/org.realityforge.gwt.ethereum_qr_code/gwt-ethereum-qr-code.svg?label=latest%20release"/>](http://search.maven.org/#search%7Cga%7C1%7Cg%3A%22org.realityforge.gwt.ethereum_qr_code%22)
 
 
